@@ -68,6 +68,10 @@
 </p>
 
 ---
+<p align="center">
+  <img src="https://raw.githubusercontent.com/AsmitMandal/AsmitMandal/output/snake.svg" alt="snake animation" />
+</p>
+---
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=AsmitMandal&style=flat-square&color=blue" alt="Profile views"/>
