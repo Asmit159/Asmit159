@@ -69,12 +69,12 @@
 
 ---
 <p align="center">
-  <img src="https://raw.githubusercontent.com/AsmitMandal/AsmitMandal/output/snake.svg" alt="snake animation" />
+  <img src="https://raw.githubusercontent.com/Asmit159/Asmit159/output/snake.svg" alt="snake animation" />
 </p>
 ---
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=AsmitMandal&style=flat-square&color=blue" alt="Profile views"/>
+  <img src="https://komarev.com/ghpvc/?username=Asmit159&style=flat-square&color=blue" alt="Profile views"/>
 </p>
 
 <!-- ========================================================= -->
