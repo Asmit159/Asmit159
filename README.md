@@ -68,13 +68,11 @@
 </p>
 
 ---
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Asmit159/Asmit159/output/snake.svg" alt="snake animation"/>
-</p>
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Asmit159/Asmit159/output/snake-dark.svg" alt="snake animation dark theme"/>
-</p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Asmit159/Asmit159/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Asmit159/Asmit159/output/github-contribution-grid-snake.svg" />
+  <img alt="github-snake" src="https://raw.githubusercontent.com/Asmit159/Asmit159/output/github-contribution-grid-snake.svg" />
+</picture>
 
 
 <p align="center">
