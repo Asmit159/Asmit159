@@ -69,9 +69,13 @@
 
 ---
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Asmit159/Asmit159/output/snake.svg" alt="snake animation" />
+  <img src="https://raw.githubusercontent.com/Asmit159/Asmit159/output/snake.svg" alt="snake animation"/>
 </p>
----
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Asmit159/Asmit159/output/snake-dark.svg" alt="snake animation dark theme"/>
+</p>
+
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=Asmit159&style=flat-square&color=blue" alt="Profile views"/>
