@@ -56,9 +56,9 @@
 <h2 align="center">🌐 Connect With Me</h2>
 
 <p align="center">
-  <a href="www.linkedin.com/in/asmit-mandal-aa300a374">
-    <img src="https://skillicons.dev/icons?i=linkedin" />
-  </a>
+   <a href="https://www.linkedin.com/in/asmit-mandal-aa300a374">
+    <img src="https://img.shields.io/badge/LinkedIn-Asmit%20Mandal-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn - Asmit Mandal"/>
+  </a> 
   <a href="mailto:asmitmandal.1236@gmail.com">
     <img src="https://skillicons.dev/icons?i=gmail" />
   </a>
