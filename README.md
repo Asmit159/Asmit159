@@ -114,12 +114,6 @@
   <img alt="GitHub Snake" src="https://raw.githubusercontent.com/Asmit159/Asmit159/output/github-contribution-grid-snake.svg">
 </picture>
 
----
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Asmit159&style=flat-square&color=blue" alt="Profile views"/>
-</p>
-
 <!-- ========================================================= -->
 <!--                    END OF README                          -->
 <!-- ========================================================= -->
