@@ -21,7 +21,7 @@
 
 ## 💫 About Me:
 
-<img align="right" src="https://i.pinimg.com/originals/4e/07/47/4e074732b47238dadf888e3750da1649.gif" alt="Eagle soaring" width="300"/>
+<img align="right" src="https://i.pinimg.com/originals/4e/07/47/4e074732b47238dadf888e3750da1649.gif" alt="Eagle soaring" width="295"/>
 
 - 🎓 CS Undergrad @ IIEST Shibpur  
 - 💡 Love building scalable apps using **Spring Boot + React/JS**  
