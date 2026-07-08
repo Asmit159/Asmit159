@@ -3,8 +3,8 @@ github_username: "Asmit159"
 
 system:
   os: "Windows 11, Linux"
-  #host: "Your Company / Team Name"
-  kernel: "Student @ IIEST Shibpur "
+  host: "IIEST Shibpur"
+  kernel: "Student"
   ide: "VSCode, IntelliJ IDEA"
 
 languages:
@@ -14,7 +14,7 @@ languages:
 
 hobbies:
   software: "Backend, AI-ML Dev"
-  #hardware: "Homelab, 3D"
+  # hardware: "Homelab, 3D"
 
 contact:
   email_personal: "asmitmandal.1236@gmail.com"
