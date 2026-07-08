@@ -1,0 +1,33 @@
+# ─────────────────────────────────────────────────────────────
+#  Fill this in with YOUR info. Nothing here is auto-generated —
+#  it's the "static" half of the README (the neofetch fields that
+#  aren't pulled live from the GitHub API).
+# ─────────────────────────────────────────────────────────────
+
+github_username: "YOUR_GITHUB_USERNAME"   # required — used for avatar + all live stats
+
+system:
+  os: "Windows 10, Linux"
+  host: "Your Company / Team Name"
+  kernel: "Your Job Title"
+  ide: "VSCode, IntelliJ IDEA"
+
+languages:
+  programming: "Python, JavaScript, Go"
+  computer: "HTML, CSS, JSON, YAML"
+  human: "English"
+
+hobbies:
+  software: "Open Source, Game Dev"
+  hardware: "Homelab, 3D Printing"
+
+contact:
+  email_personal: "you@example.com"
+  email_work: "you@company.com"
+  linkedin: "your-linkedin-handle"
+  discord: "your_discord_handle"
+  website: "https://yoursite.dev"
+
+ascii_art:
+  columns: 42          # width of the generated avatar art, in characters
+  monochrome: true      # true = single-tone block art like the reference image
