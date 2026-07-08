@@ -194,28 +194,52 @@ def pad_lines(text: str, width: int) -> list:
 
 
 def render_readme(profile: dict, stats: dict, ascii_lines: list) -> str:
+    system = profile.get("system", {}) or {}
+    languages = profile.get("languages", {}) or {}
+    hobbies = profile.get("hobbies", {}) or {}
+    contact = profile.get("contact", {}) or {}
+
+    def g(d: dict, key: str, default: str = "—") -> str:
+        return d.get(key) or default
+
     info_lines = [
         f"{stats['username']}@github",
         "─" * 40,
-        f"OS: ................ {profile['system']['os']}",
+        f"OS: ................ {g(system, 'os')}",
         f"Uptime: ............ {stats['uptime']}",
-        f"Host: ............... {profile['system']['host']}",
-        f"Kernel: ............. {profile['system']['kernel']}",
-        f"IDE: ................ {profile['system']['ide']}",
+        f"Host: ............... {g(system, 'host')}",
+        f"Kernel: ............. {g(system, 'kernel')}",
+        f"IDE: ................ {g(system, 'ide')}",
         "",
-        f"Languages.Programming: {profile['languages']['programming']}",
-        f"Languages.Computer: .. {profile['languages']['computer']}",
-        f"Languages.Human: ..... {profile['languages']['human']}",
+        f"Languages.Programming: {g(languages, 'programming')}",
+        f"Languages.Computer: .. {g(languages, 'computer')}",
+        f"Languages.Human: ..... {g(languages, 'human')}",
         "",
-        f"Hobbies.Software: .... {profile['hobbies']['software']}",
-        f"Hobbies.Hardware: .... {profile['hobbies']['hardware']}",
+        f"Hobbies.Software: .... {g(hobbies, 'software')}",
+    ]
+    if hobbies.get("hardware"):
+        info_lines.append(f"Hobbies.Hardware: .... {g(hobbies, 'hardware')}")
+    info_lines += [
         "",
         "─ Contact " + "─" * 30,
-        f"Email.Personal: ...... {profile['contact']['email_personal']}",
-        f"Email.Work: .......... {profile['contact']['email_work']}",
-        f"LinkedIn: ............ {profile['contact']['linkedin']}",
-        f"Discord: ............. {profile['contact']['discord']}",
-        f"Website: ............. {profile['contact']['website']}",
+    ]
+    # Only show contact fields that are actually filled in (so commented-out
+    # ones in profile.yml just disappear instead of showing "—").
+    contact_labels = {
+        "email_personal": "Email.Personal",
+        "email_work": "Email.Work",
+        "linkedin": "LinkedIn",
+        "discord": "Discord",
+        "leetcode": "LeetCode",
+        "codeforces": "Codeforces",
+        "website": "Website",
+    }
+    max_label = max(len(v) for v in contact_labels.values())
+    for key, label in contact_labels.items():
+        if contact.get(key):
+            dots = "." * (max_label - len(label) + 3)
+            info_lines.append(f"{label}: {dots} {contact[key]}")
+    info_lines += [
         "",
         "─ GitHub Stats " + "─" * 25,
         f"Repos: .......... {stats['repo_count']}  (Contributed: {stats['contributed_count']})",
